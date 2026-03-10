@@ -1,0 +1,212 @@
+/* RESET DO CAOS */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: "Comic Sans MS", Impact, Arial, sans-serif;
+}
+
+/* FUNDO EPILEPTICO SUPREMO */
+body{
+background: linear-gradient(45deg, red, yellow, lime, cyan, magenta);
+background-size: 600% 600%;
+animation: rave 8s infinite alternate;
+color:white;
+text-shadow:2px 2px 6px black;
+}
+
+/* ANIMAÇÃO DO FUNDO */
+@keyframes rave{
+0%{background-position:0% 50%;}
+25%{background-position:50% 0%;}
+50%{background-position:100% 50%;}
+75%{background-position:50% 100%;}
+100%{background-position:0% 50%;}
+}
+
+/* CONTAINER PRINCIPAL */
+#zona-de-caos{
+width:90%;
+margin:auto;
+padding:20px;
+}
+
+/* TITULO ESTILO MLG */
+header h1{
+font-size:60px;
+text-align:center;
+color:#ffcc00;
+text-shadow:
+0 0 10px red,
+0 0 20px orange,
+0 0 40px yellow,
+4px 4px 0 black;
+animation: glitch 1s infinite alternate;
+}
+
+header p{
+text-align:center;
+font-size:20px;
+margin-top:10px;
+}
+
+/* GLITCH DO TITULO */
+@keyframes glitch{
+0%{transform:skewX(0deg);}
+50%{transform:skewX(5deg);}
+100%{transform:skewX(-5deg);}
+}
+
+/* MENU MLG */
+nav ul{
+display:flex;
+justify-content:center;
+gap:20px;
+list-style:none;
+margin:30px 0;
+}
+
+nav a{
+text-decoration:none;
+padding:12px 20px;
+background:black;
+border:3px solid lime;
+color:lime;
+font-weight:bold;
+transition:0.3s;
+box-shadow:0 0 10px lime;
+}
+
+nav a:hover{
+background:lime;
+color:black;
+transform:scale(1.2) rotate(-3deg);
+box-shadow:0 0 20px lime,0 0 40px lime;
+}
+
+/* SEÇÕES */
+section{
+margin:40px 0;
+padding:20px;
+background:rgba(0,0,0,0.7);
+border:3px solid #ff00ff;
+box-shadow:0 0 20px magenta;
+}
+
+/* TITULOS */
+h2{
+color:#00ffff;
+margin-bottom:20px;
+text-shadow:0 0 10px cyan;
+}
+
+h3{
+color:#ff9900;
+margin-bottom:10px;
+}
+
+/* ARTIGOS */
+article{
+margin-bottom:20px;
+padding:15px;
+background:rgba(0,0,0,0.5);
+border-left:6px solid red;
+}
+
+/* DETAILS */
+details{
+margin-top:10px;
+cursor:pointer;
+}
+
+/* BLOCO DE CÓDIGO */
+pre, code{
+background:black;
+color:#00ff00;
+padding:10px;
+display:block;
+margin:10px 0;
+border:2px solid lime;
+box-shadow:0 0 10px lime inset;
+}
+
+/* TABELA DO CAOS */
+table{
+width:100%;
+border-collapse:collapse;
+background:black;
+color:white;
+}
+
+th{
+background:red;
+color:yellow;
+padding:10px;
+}
+
+td{
+padding:10px;
+border:1px solid white;
+text-align:center;
+}
+
+tr:hover{
+background:#222;
+transform:scale(1.02);
+}
+
+/* FORMULÁRIO */
+form{
+margin-top:20px;
+}
+
+fieldset{
+border:3px solid cyan;
+padding:20px;
+box-shadow:0 0 20px cyan;
+}
+
+legend{
+color:cyan;
+font-size:20px;
+}
+
+input, textarea, select{
+width:100%;
+padding:10px;
+margin:10px 0;
+background:black;
+color:lime;
+border:2px solid lime;
+}
+
+textarea{
+height:100px;
+}
+
+input[type="submit"]{
+background:red;
+color:white;
+font-weight:bold;
+cursor:pointer;
+transition:0.3s;
+}
+
+input[type="submit"]:hover{
+background:yellow;
+color:black;
+transform:scale(1.1);
+}
+
+/* FOOTER */
+footer{
+text-align:center;
+margin-top:50px;
+padding:20px;
+background:black;
+border-top:4px solid red;
+}
+
+footer p{
+color:orange;
+}
